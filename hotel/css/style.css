@@ -1,0 +1,213 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Helvetica", sans-serif;
+	background: white url('../images/bg.png');
+	margin: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#whole-area {
+	margin: 0 auto;
+	max-width: 1180px;
+	min-width: 740px;
+	background: url(../images/bg-container.png) top center repeat-y;
+}
+
+#top-area {
+	background: #DBCD87;
+	height: 15.4em;
+	min-height: 250px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+#logo-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: url(../images/topo-imagem-principal2.png) no-repeat;
+	width: 100%;
+	height: 250px;
+	z-index: 1;
+}
+
+#logo-area h1 a {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	background: url(../images/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+	text-indent: -9000px;
+}
+
+#menu-area {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	background: url(../images/topo-imagem-lateral.png) no-repeat;
+
+	width: 450px;
+	height: 250px;
+	z-index: 2;
+}
+
+#conteudo-menu {
+	margin-left: 90px;
+	margin-right: 15px;
+	padding-top: 15px;
+}
+
+#facilities-menu {
+	border-bottom: 1px solid #B5AB56;
+	border-top: 1px solid #B5AB56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #8B8448;
+	font-size: 0.8em;
+}
+
+#facilities-menu .cities {
+	float: left;
+	line-height: 2.1em;
+}
+
+a.reserve {
+	text-transform: uppercase;
+	background: #A29750;
+	color: #FFF5B0;
+	margin-top: 2px;
+	padding: 5px 10px;
+	font-size: 0.9em;
+	float: right;
+	font-weight: bold;
+}
+
+#menu-customer-review-area {
+	margin-top: 15px;
+}
+
+#menu-customer-review-area .vertical-menu {
+	float: left;
+}
+
+#menu-customer-review-area .vertical-menu li {
+}
+
+#menu-customer-review-area .vertical-menu a {
+	text-transform: uppercase;
+	font-size: 0.7em;
+	padding: 1.4px 5px;
+	color: #6E672C;
+	display: block;
+	line-height: 30px;
+}
+
+#menu-customer-review-area .vertical-menu a:hover {
+	background: #FBF6BE;
+}
+
+#menu-customer-review-area .customer-review {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+.centralized-content {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#main-area, #second-area {
+	width: 50%;
+}
+
+#main-area {
+	float: left;
+	background: url(../images/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#main-area .centralized-content p {
+	text-align: justify;
+}
+
+#second-area {
+	float: right;
+	background: url(../images/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0px;
+}
+
+#second-area #features-list-title {
+	text-align: center;
+	color: #A29750;
+	padding-bottom: 15px;
+	font-size: 1.5em;
+}
+
+#second-area #hotel-features li {
+	height: 130px;
+	padding: 8px;
+	border-bottom: 1px solid #CCCCCC;
+	/*display: block;*/
+}
+
+#second-area #hotel-features li a img {
+	float: left;
+	margin-right: 8px;
+}
+
+#second-area #hotel-features li a h3 {
+	font-size: 1.1em;
+	background: url(../images/ornamento.png) no-repeat right center;
+	color: #615B2D;
+	padding: 5px 0px;
+}
+
+#second-area #hotel-features li a p {
+	color: black;
+	font-size: 0.8em;
+}
+
+#second-area #hotel-features li:hover {
+	background: #EEEEEE;
+}
+
+h2 {
+	color: #7B7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+p {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.footer {
+	clear: both;
+	padding: 16px;
+	background: white url(../images/bg-rodape.png) repeat-x top;
+	color: #7B7640;
+	font-family: cursive;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}

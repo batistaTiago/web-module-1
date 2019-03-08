@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", "Helvetica", sans-serif;
+	background: white url('../images/header-background.png') repeat-x;
+}
+
+#whole-area {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#top-area {
+	height: 150px;
+	padding-top: 25px;
+	background: url('../images/country-logo.png') no-repeat center right;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url('../images/logo.png');
+	text-indent: -7000px; /* identação para evitar esconder dados: melhora o SEO */
+}
+
+a:link, a:visited {
+	color: #B10333;
+	padding: 2px;
+}
+
+a:hover {
+	color: #E50040;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#top-area ul {
+	margin-top: 30px;
+	background: #B10333;
+	float: left;
+}
+
+#top-area ul li {
+	float: left;
+}
+
+#top-area ul li a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.25em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+	background: url('../images/divider.png') no-repeat left center;
+}
+
+#top-area ul li.primeiro a {
+	background: none;
+}
+
+
+#top-area ul li a:hover {
+	color: #69001D;
+}
+
+body.home #top-menu a#home,
+body.brasil #top-menu a#brasil,
+body.internacional #top-menu a#internacional,
+body.economia #top-menu a#economia,
+body.saude #top-menu a#saude,
+body.ciencia #top-menu a#ciencia,
+body.fotos #top-menu a#fotos {
+ 	color: white;
+ 	background: #DE003E;
+ 	cursor: text;
+}
+
+
+#main-area {
+	margin-top: 70px;
+	background: #EEE;
+}
+
+#sidebar-content {
+	width: 180px;
+	float: left;
+}
+
+#main-content {
+	width: 270px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+
+#two-columns #main-content {
+	width: 555px;
+	margin-right: 0;
+}
+
+#single-column #main-content {
+	width: 750px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.main-content-box {
+	background: #F3F3F3 url(../images/fundo-caixa.png);
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.main-content-box h2 {
+	font-size: 1.25em;
+	background: #294C71;
+	color: white;
+	padding: 5px;
+}
+
+.display-content {
+	background: white;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#sidebar-content ul li {
+	margin-top: 10px;
+}
+
+#sidebar-content ul a {
+	font-size: 1em;
+	padding: 3px;
+	text-indent: 20px;
+	display: block; /* faz qualquer ponto da linha clicado procar o link */
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #F3F3F3;
+}
+
+#sidebar-content ul a:hover {
+	background: #F9F9F9 url('../images/marker.png') no-repeat left center;
+	color: #A1A1A1;
+}
+
+#secondary-content {
+	width: 270px;
+	float: left;
+}
+
+/*
+  FORMATANDO FORMS
+*/
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	background-color: white;
+	padding: 5px;
+	width: 125px;
+}
+
+input.submit {
+	width: 80px;
+	color: white;
+	background-color: #B10333;
+	margin: 10px 22.5px;
+	display: block;
+}
+
+/*
+	FORMATANDO IMAGENS
+*/
+
+img {
+	border: 2px solid #DFDFDF;
+}
+
+/*
+	FORMATANDO TITULO DAS NOTICIAS
+*/
+
+.main-content-box h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 1.1em;
+	padding: 3px;
+}
+
+#secondary-content .display-content h3 {
+	background: #DE003E;
+}
+
+#main-content .display-content h3 {
+	background: #B10333;
+	color: white;
+}
+
+/*
+	FORMATAÇÃO DA LISTA DE NOTÍCIAS
+*/
+
+#news-list li {
+	padding: 2px;
+	border-bottom: 1px solid #CCC;
+	height: 65px;
+}
+
+#news-list li a img {
+	float: left;
+	margin: 5px;
+}
+
+#news-list li a {
+	text-decoration: none;
+	font-size: 0.85em;
+	color: black;
+}
+
+#news-list li a h3 {
+	color: #3E7AB9;
+	padding-left: 10px;
+	font-size: 0.75em;
+}
+
+#news-list li:hover {
+	background: #CCC;
+	cursor: pointer;
+}
+
+#clear {
+	clear: both;
+}
+
+#footer-area {
+	padding: 20px;
+	background: #294C71;
+}
+
+#footer-content {
+	width: 750px;
+	margin: 0 auto;
+	color: white;
+}
+
+
+/*
+	FORMATAÇÃO DE TEXTO
+*/
+
+.justify-text p {
+	text-align: justify;
+	margin-top: 10px;
+}

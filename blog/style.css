@@ -1,0 +1,82 @@
+* {
+	font-size: 20px;
+}
+
+body {
+	background-color: #d2d2d2;
+	background-image: url('images/background.png');
+	background-attachment: fixed;
+	align-content: center;
+}
+
+.menu-area {
+	height: 100px;
+	background-color: rgb(120, 120, 50);
+	text-align: center;
+}
+
+.menu-area .menu-links {
+	line-height: 100px;
+	display: inline-block;
+	word-spacing: 1.5em;
+}
+
+.menu-area .menu-links a {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.menu-area .menu-links a:hover {
+	color: rgb(160, 160, 60);
+	text-decoration: underline;
+}
+
+.main-page-area {
+	background-color: white;
+}
+
+.main-page-area h2 {
+	font-size: 1.65em;
+	color: rgb(170, 170, 170);
+	padding-top: 30px;
+	text-align: center;
+}
+
+.campanhas {
+	padding-bottom: 20px;
+}
+
+.campanhas img {
+	border: 10px solid #C3C3AE;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.area-form-contato {
+	padding: 10px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.area-form-contato .text-input {
+	width: 100%;
+}
+
+.area-form-contato textarea {
+	width: 100%;
+	height: 200px;
+}
+
+.area-form-contato #submit-button {
+	margin-left:35%;
+	margin-right:35%;
+	width: 30%;
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.85em;
+}
