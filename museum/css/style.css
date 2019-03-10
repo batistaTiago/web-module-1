@@ -1,0 +1,326 @@
+/* CUSTOM FONTS */
+
+@font-face {
+font-family: "Julietta";
+src: url("../css/fonts/julietta.woff");
+}
+
+@font-face {
+font-family: "Hearthstone";
+src: url("../css/fonts/hearthstone.woff");
+}
+
+/* FORMATAÇÕES GERAIS */
+
+body {
+	background: #F4F2EC url(../images/fundo.png) repeat-x;
+	font-size: 12px "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a:link, a:active, a:visited {
+	color: #AF670A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #227115;
+}
+
+.centralized-area {
+	text-align: center;
+}
+
+#whole-area {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+header {
+	height: 55px;
+	padding: 15px 0px;
+}
+
+header #header-content #header-logo {
+	float: left;
+}
+
+header nav ul {
+	float: right;
+	margin: 20px;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	/*display: block;*/
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+#header-content #header-logo {
+	height: 50px;
+	width: 298px;
+	display: block;
+	text-indent: -99999px;
+	background: url(../images/logo.png) no-repeat center left;
+}
+
+
+/* CONFIGURANDO AREAS */
+
+#main-area {
+	width: 710px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+aside {
+	width: 350px;
+	float: right;
+	background: #EBE7DD;
+	margin-bottom: 30px;
+}
+
+/* AREA PRINCIPAL */
+
+section#recent-posts h3 {
+	color: #227115;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+section#recent-posts h6 {
+	margin: 0 0 15px 15px;
+}
+
+section#recent-posts p {
+	font-size: 0.8em;
+}
+
+section#recent-posts article {
+}
+
+article#video {
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#map {
+	float: right;
+	width: 310px;
+	margin-right: 25px;
+}
+
+article#expos {
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#expos ul {
+	list-style: disc;
+}
+
+article#expos ul li a {
+	font-size: 0.9em;
+}
+
+article#history {
+	float: right;
+	width: 310px;
+	margin-right: 25px;
+}
+
+/* AREA LATERAL */
+
+section#visitors {
+	background: #CDC8B1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+
+section#visitors input {
+	height: 20px;
+	background: white;
+	border: none;
+	font-size: 1em;
+	width: 80px;
+}
+
+section#visitors input.textField {
+	border: 1px solid #ADA484;
+}
+
+section#visitors input.submit {
+	background: #9B9271;
+	color: white;
+	width: 85%;
+	height: 40px;
+	font-size: 1.2em;
+	border: 1px solid #ADA484;
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+section#visitors input.submit:hover {
+	cursor: pointer;
+}
+
+section#visitors legend {
+	color: #86521A;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+section#visitors .centralized-area {
+	width: 95%; 
+	margin: 0 auto;
+}
+
+section#visitors .centralized-area label#label-nVisitors {
+	margin-left: 15px;
+}
+
+
+
+section#photo-gallery {
+	margin-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #ccc;
+}
+
+section#photo-gallery h3 {
+	color: #86521A;
+	text-transform: uppercase;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+
+section#photo-gallery a {
+	display: block;
+	float: left;
+	background: url(../images/fundo-foto.png) no-repeat;
+	padding: 18px 15px;
+	margin: 10px 0 0 20px;
+}
+
+section#photo-gallery img {
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+/* RODAPÉ */
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	background: url(../images/fundo-rodape.png) no-repeat center top;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+
+
+/*
+	ESTILIZANDO O POST SOBRE LOREM IPSUM
+*/
+
+body#lorem-ipsum-full header {
+	margin-bottom: 40px;
+
+}
+
+body#lorem-ipsum-full #main-area {
+
+}
+
+body#lorem-ipsum-full article#lorem-ipsum-history {
+	float: left;
+}
+
+body#lorem-ipsum-full article#lorem-ipsum-history h2 {
+	padding-top: 40px;
+	clear: both;
+	font-size: 30px;
+	font-family: "Hearthstone";
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+body#lorem-ipsum-full article#lorem-ipsum-history h3 {
+	margin-left: 
+}
+
+body#lorem-ipsum-full article#lorem-ipsum-history h6 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+body#lorem-ipsum-full article#lorem-ipsum-history p {
+	text-align: justify;
+}
+
+body#lorem-ipsum-full aside {
+	background: none;
+}
+
+body#lorem-ipsum-full aside section#about-the-author {
+	padding: 40px 10px 10px 10px;
+}
+
+body#lorem-ipsum-full aside section#about-the-author h3 {
+	font-family: "Hearthstone";
+	text-align: center;
+	font-size: 30px;
+}
+
+body#lorem-ipsum-full aside section#about-the-author img {
+	padding: 15px;
+	box-sizing: border-box;
+	width: 45%;
+	float: left;
+}
+
+body#lorem-ipsum-full aside section#about-the-author h4 {
+	padding-top: 15px;
+}
+
+body#lorem-ipsum-full aside section#about-the-author p {
+	font-size: 0.9em;
+	padding-top: 25px;
+	text-align: justify;
+}
+
+body#lorem-ipsum-full aside section#about-the-author fieldset legend {
+	text-transform: uppercase;
+	padding: 0;
+}
+
+body#lorem-ipsum-full aside section#about-the-author fieldset a {
+	float: left;
+	margin: 5px;
+}

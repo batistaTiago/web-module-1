@@ -2,8 +2,162 @@
 <html>
 <head>
 	<title>Museu Nacional - Página Principal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- [if IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
 </head>
 <body>
+	<div id="whole-area">
 
+		<header>
+			<div id="header-content">
+				<a id="header-logo" href="index.html">Museu Nacional</a>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">home</a>
+					</li>
+					<li>
+						<a href="exposicoes.html">exposições</a>
+					</li>
+					<li>
+						<a href="pesquisa.html">pesquisa</a>
+					</li>
+					<li>
+						<a href="acervo.html">acervo</a>
+					</li>
+					<li>
+						<a href="videos.html">vídeos</a>
+					</li>
+					<li>
+						<a href="fotos.html">fotos</a>
+					</li>
+					<li>
+						<a href="contato.html">contato</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="main-area">
+			<section id="cover">
+				<img src="images/museu.png">
+			</section>
+
+			<section id="recent-posts">
+
+				<article id="video">
+					<h3>Incendio no museu nacional</h3>
+					<h6>Por: <a href="">Batista Tiago</a> - 8 de março de 2019 às 16h20min</h6>
+					<iframe width="310" height="170" src="https://www.youtube.com/embed/hhGw5nJQ4eQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</article>
+
+				<article id="map">
+					<h3>Mapa: Encontre o museu</h3>
+					<h6>Por: <a href="">Batista Tiago</a> - 4 de abril de 2018 às 8h53min</h6>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.20631166532!2d-43.228717584724606!3d-22.905759985012352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1552080566533" width="310" height="170" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</article>
+
+				<article id="expos">
+					<h3>Exposições</h3>
+					<h6>Por: <a href="">Batista Tiago</a> - 3 de janeiro de 2018 às 12h09min</h6>
+					<ul>
+						<li>
+							<a href="">Insetos demoníacos</a>
+						</li>
+						<li>
+							<a href="">Lorem Ipsum</a>
+						</li>
+						<li>
+							<a href="">Sagursos, o que são?</a>
+						</li>
+						<li>
+							<a href="">Paleontologia em cena</a>
+						</li>
+						<li>
+							<a href="">NeverGoVegan - Por que comer devemos carne?</a>
+						</li>
+						<li>
+							<a href=""><strong>Veja todos</strong></a>
+						</li>
+					</ul>
+				</article>
+
+				<article id="history">
+					<h3>200 anos de história</h3>
+					<h6>Por: <a href="">Batista Tiago</a> - 14 de novembro de 2017 às 4h20min</h6>
+					<p>
+						Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+					</p>
+					<a href="articles/lorem-ipsum-history.html"><strong>Leia mais</strong></a>
+				</article>
+			</section>
+		</div>
+
+		<aside>
+			<section id="review">
+				<img src="images/depoimento.png">
+			</section>
+
+			<section id="visitors">
+				<!-- <h4>Faça uma visita</h4> -->
+				<form>
+					<fieldset>
+						<legend>Agende sua visita</legend>
+						<div class="centralized-area">
+							<label for="data">Data</label>
+							<input type="text" id="date" placeholder="dd/mm/aaaa" class="textField">
+							<label for="nVisitors" id="label-nVisitors">Pessoas</label>
+							<input type="number" id="nVisitors" value="1" min="1" max="99" class="textField" style="width: 40px;">
+							<div class="clear"></div>
+							<input type="button" value="Verificar Disponibilidade" class="submit">
+						</div>
+					</fieldset>
+				</form>
+			</section>
+
+			<section id="photo-gallery">
+				<h3>Galeria de fotos</h3>
+				<a href="">
+					<img src="images/imagem1.jpg" 
+					width="93" 
+					height="93" 
+					alt="Descricao img1">
+				</a>
+
+				<a href="">
+					<img src="images/imagem2.jpg" 
+					width="93" 
+					height="93" 
+					alt="Descricao img2">
+				</a>
+
+				<a href="">
+					<img src="images/imagem3.jpg" 
+					width="93" 
+					height="93" 
+					alt="Descricao img3">
+				</a>
+
+				<a href="">
+					<img src="images/imagem4.jpg" 
+					width="93" 
+					height="93" 
+					alt="Descricao img4">
+				</a>
+			</section>
+		</aside>
+
+		<footer>
+			All Rights Reserved.
+		</footer>
+		
+	</div>
 </body>
 </html>
