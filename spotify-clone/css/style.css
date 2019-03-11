@@ -4,12 +4,17 @@
 
 /*
 	Formatações Gerais
-	*/
+*/
 
 	html, body, #apresentacao {
 		height: 100%;
+		overflow-x: hidden;
 	}
 
+	p {
+		text-align: justify;
+	}
+	
 	#main-body {
 		background: url(../images/capa.png), 
 		url(../images/ruido.png),
@@ -21,7 +26,7 @@
 
 /* 
 	Barra de navegação 
-	*/
+*/
 
 	.fundo-preto-semi-transparente {
 		background: rgba(0, 0, 0, 0.6);
@@ -48,8 +53,8 @@
 
 
 /* 
-	Formatação de Texto
-	*/
+	Media Queries
+*/
 
 	/* Extra small devices (portrait phones, less than 576px) */
 	@media (max-width: 575.98px) {
@@ -57,8 +62,49 @@
 			font-size: 3em;
 		}
 		.btn-custom {
-			margin: 10px 15px;
+			margin: 10px 5px;
+			font-size: 1em;
 		}
+
+		#services h2 {
+			font-size: 1.5em;
+		}
+
+		#services h3 {
+			font-size: 1.25em;
+		}
+
+		#services h2 p {
+			font-size: 0.9em;
+			padding-bottom: 10px;
+		}
+
+		#resources h2 {
+			font-size: 1.5em;
+		}
+
+		#resources h3 {
+			font-size: 1.25em;
+		}
+
+		#resources h2 p {
+			font-size: 0.9em;
+			padding-bottom: 10px;
+		}
+
+		footer img {
+			padding-bottom: 15px;
+		}
+
+		footer .col-md-2 h4 {
+			margin-top: 25px;
+		}
+
+		footer .col-md-4 {
+			padding-top: 20px;
+		}
+
+
 	}
 
 	/* Small devices (landscape phones, 576px and up) */
@@ -75,31 +121,50 @@
 	/* Medium devices (tablets, 768px and up) */
 	@media (min-width: 768px) and (max-width: 991.98px) {
 		h1 {
-			font-size: 4em;
+			font-size: 5em;
 		}
 	}
 
 	/* Large devices (desktops, 992px and up) */
 	@media (min-width: 992px) and (max-width: 1199.98px) {
 		h1 {
-			font-size: 5em;
+			font-size: 6em;
 		}
 	}
 
 	/* Extra large devices (large desktops, 1200px and up) */
 	@media (min-width: 1200px) {
 		h1 {
-			font-size: 6em;
+			font-size: 7em;
 		}
 	}
 
 
+/* 
+	Tipografia
+*/
+
 	h1 {
 		letter-spacing: -0.05em;
+		font-weight: 900;
+		color: white;
+	}
+
+	h2 {
+		font-size: 3em;
+		font-weight: 700;
+	}
+
+	h3 {
+		font-size: 2em;
+		font-weight: 600;
 	}
 
 
-	/* Customização dos botões */
+/* 
+	Customização dos botões
+*/
+
 	.btn-custom {
 		color: white;
 		border-radius: 500px;
@@ -128,3 +193,90 @@
 		background-color: white;
 		color: black;
 	}
+
+	.carousel-control-prev {
+		width: 5%;
+		padding-right: 15px;
+	}
+
+	.carousel-control-next {
+		width: 5%;
+		padding-left: 15px;
+	}
+
+/*
+	Conteúdo da página principal
+*/
+
+.py-20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#services {
+	background: white;
+}
+
+#services h2, #services h3 {
+	color: #7C25F8;
+}
+
+#resources h2, #resources p {
+	color: white;
+}
+
+#resources h3 {
+	color: #9BF0E1;
+}
+
+.albums {
+	padding: 10px 0;
+}
+
+.rotated {
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+
+	padding-left: 80px;
+}
+
+
+/*
+	Rodapé
+*/
+
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919796;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav li {
+	padding: 5px 0px;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9BF0E1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
