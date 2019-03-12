@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora - App 1</title>
+	<meta charset="utf-8">
+
+	<!-- CSS Bootsrap 4 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body class="">
+	<section class="d-flex">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div id="calc-background">
+					<div class="container">
+						<div class="row">
+							<input id="calc-textfield" type="text" class="col-10 offset-1" placeholder="0" disabled>
+							<div class="col-10  mt-4 ml-2">
+								<div class="row linha d-flex">
+									<button onclick="calcular('action', 'c')" class="btn btn-dark btn-custom btn-2x1">C</button>
+									<button onclick="calcular('action', '/')" class="btn btn-dark btn-custom">/</button>
+									<button onclick="calcular('action', '*')" class="btn btn-dark btn-custom">&times;</button>
+								</div>
+								<div class="row linha d-flex">
+									<button onclick="calcular('value', 7)" class="btn btn-dark btn-custom">7</button>
+									<button onclick="calcular('value', 8)" class="btn btn-dark btn-custom">8</button>
+									<button onclick="calcular('value', 9)" class="btn btn-dark btn-custom">9</button>
+									<button onclick="calcular('action', '-')" class="btn btn-dark btn-custom">-</button>
+								</div>
+								<div class="row linha d-flex">
+									<button onclick="calcular('value', 4)" class="btn btn-dark btn-custom">4</button>
+									<button onclick="calcular('value', 5)" class="btn btn-dark btn-custom">5</button>
+									<button onclick="calcular('value', 6)" class="btn btn-dark btn-custom">6</button>
+									<button onclick="calcular('action', '+')" class="btn btn-dark btn-custom">+</button>
+								</div>
+								<div class="row linha d-flex">
+									<button onclick="calcular('value', 1)" class="btn btn-dark btn-custom">1</button>
+									<button onclick="calcular('value', 2)" class="btn btn-dark btn-custom">2</button>
+									<button onclick="calcular('value', 3)" class="btn btn-dark btn-custom">3</button>
+									<button onclick="calcular('action', '=')" class="btn btn-dark btn-custom btn-1x2">=</button>
+								</div>
+								<div class="row linha d-flex last-row pb-1">
+									<button onclick="calcular('value', 0)" class="btn btn-dark btn-custom btn-2x1">0</button>
+									<button onclick="calcular('action', '.')" class="btn btn-dark btn-custom">.</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/calculator.js"> </script>
+</body>
+</html>
