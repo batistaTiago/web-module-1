@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.mosquito-0 {
+	width: 35px;
+	height: 35px;
+}
+
+.mosquito-1 {
+	width: 50px;
+	height: 50px;
+}
+
+.mosquito-2 {
+	width: 65px;
+	width: 65px;
+}
+
+.mosquito-3 {
+	width: 80px;
+	width: 80px;
+}
+
+.left-faced {
+	transform: scaleX(1);
+}
+
+.right-faced {
+	transform: scaleX(-1);
+}
+
+
+.heads-up-display {
+	position: absolute;
+	width: 250px;
+	bottom: 0px;
+	left: 0px;
+	padding: 10px;
+	background-color: white;
+	opacity: 0.7;
+	border-top: 1px solid white;
+}
+
+.player-health, .timer, .player-score {
+	float: left;
+}
+
+.timer, .player-score {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.vertically-centered {
+	border: 2px solid black;
+}
